@@ -1,4 +1,4 @@
-# Machine Learning Model Deployment with AWS Elastic Beanstalk
+# Machine Learning Model Deployment with AWS for Student Performance Prediction
 
 ## Overview
 This project involves the end-to-end implementation of a machine learning pipeline for predicting student performance based on various features such as gender, race/ethnicity, parental education level, and test scores. The pipeline includes data preprocessing, model training, evaluation, and deployment on AWS Elastic Beanstalk using a CI/CD pipeline. The project is designed to be scalable, modular, and production-ready.
@@ -79,9 +79,7 @@ The application is deployed on AWS Elastic Beanstalk with the following steps:
 2. Create and activate a virtual environment:
    ```bash
    python -m venv venv
-   source venv/bin/activate  
-   or
-   Windows: venv\Scripts\activate
+   source venv/bin/activate   # Windows: venv\Scripts\activate
    ```
 3. Install dependencies:
    ```bash
@@ -89,7 +87,7 @@ The application is deployed on AWS Elastic Beanstalk with the following steps:
    ```
 4. Run the Flask application:
    ```bash
-   python app.py
+   python application.py
    ```
 5. Open your browser and navigate to `http://127.0.0.1:5000`.
 
@@ -110,6 +108,9 @@ The application is deployed on AWS Elastic Beanstalk with the following steps:
 
 ## Conclusion
 This project demonstrates a comprehensive workflow for developing and deploying a machine learning application. It is modular, scalable, and ready for production. Contributions and suggestions are welcome!
+
+## Acknowledgments
+I would like to express my gratitude to @krishnaik06, whose YouTube tutorials on data science and machine learning were instrumental in shaping the foundation of this project.
 
 ## Author
 **Jaykumar Mistry**
